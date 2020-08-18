@@ -1,0 +1,8 @@
+﻿  App.cpp
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(63,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(64,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(65,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(343,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(596,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(603,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  BaseApp.vcxproj -> C:\Users\ebay\source\repos\BaseApp\Debug\BaseApp.exe
