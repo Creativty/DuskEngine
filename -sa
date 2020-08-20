@@ -1,0 +1,54 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   BaseApp.sln
+#	new file:   BaseApp/App.cpp
+#	new file:   BaseApp/App.h
+#	new file:   BaseApp/BaseApp.vcxproj
+#	new file:   BaseApp/BaseApp.vcxproj.filters
+#	new file:   BaseApp/BaseApp.vcxproj.user
+#	new file:   BaseApp/Debug/App.obj
+#	new file:   BaseApp/Debug/BaseApp.Build.CppClean.log
+#	new file:   BaseApp/Debug/BaseApp.exe.recipe
+#	new file:   BaseApp/Debug/BaseApp.log
+#	new file:   BaseApp/Debug/BaseApp.tlog/BaseApp.lastbuildstate
+#	new file:   BaseApp/Debug/BaseApp.tlog/BaseApp.write.1u.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/CL.command.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/CL.read.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/CL.write.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/link.command.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/link.read.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.tlog/link.write.1.tlog
+#	new file:   BaseApp/Debug/BaseApp.vcxproj.CopyComplete
+#	new file:   BaseApp/Debug/BaseApp.vcxproj.FileListAbsolute.txt
+#	new file:   BaseApp/Debug/Drawable.obj
+#	new file:   BaseApp/Debug/main.obj
+#	new file:   BaseApp/Debug/vc142.idb
+#	new file:   BaseApp/Debug/vc142.pdb
+#	new file:   BaseApp/Debug/vcpkg.applocal.log
+#	new file:   BaseApp/Drawable.cpp
+#	new file:   BaseApp/Drawable.h
+#	new file:   BaseApp/Engine.h
+#	new file:   BaseApp/Loader.h
+#	new file:   BaseApp/Timer.h
+#	new file:   BaseApp/Vectors.h
+#	new file:   BaseApp/default.fragment
+#	new file:   BaseApp/default.vertex
+#	new file:   BaseApp/linmath.h
+#	new file:   BaseApp/main.cpp
+#	new file:   Debug/BaseApp.exe
+#	new file:   Debug/BaseApp.ilk
+#	new file:   Debug/BaseApp.pdb
+#	new file:   Debug/default.fragment
+#	new file:   Debug/default.vertex
+#	new file:   Debug/glew32d.dll
+#	new file:   Debug/glfw3.dll
+#
+Gitcommit

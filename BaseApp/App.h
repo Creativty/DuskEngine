@@ -2,6 +2,8 @@
 #include <string>
 #include "GLFW/glfw3.h"
 #include "Timer.h"
+#include "ShaderProgram.h"
+#include "Drawable.h";
 
 class App
 {
@@ -12,17 +14,17 @@ public:
 
 	void setFrameRate(float rate);
 	void loop();
+	void loop(Drawable drawables[]);
 	void update(float delta);
-	void render();
+	void render(Drawable drawables[]);
 	void sync();
 
-	inline void init_shaders(char* vertex_text, char* frag_text);
+	//inline void init_shaders(char* vertex_text, char* frag_text);
 	
 private:
 
 	GLFWwindow* window;
-	GLuint vertex_shader, fragment_shader, program;
-	GLint mvp_location, vpos_location, vcol_location;
+	ShaderProgram active_shader;
 
 	std::string sAppTitle;
 	float TARGET_FPS = 60.f;

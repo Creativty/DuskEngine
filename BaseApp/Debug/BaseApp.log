@@ -1,8 +1,17 @@
 ﻿  App.cpp
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(63,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(64,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(65,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(343,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(596,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\ebay\source\repos\BaseApp\BaseApp\linmath.h(603,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.cpp(99,9): warning C4101: 'm': unreferenced local variable
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.cpp(99,12): warning C4101: 'p': unreferenced local variable
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.cpp(99,15): warning C4101: 'mvp': unreferenced local variable
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.cpp(114,8): warning C4101: 'elapsedTime': unreferenced local variable
+  Drawable.cpp
+  main.cpp
+C:\Users\ebay\source\repos\BaseApp\BaseApp\App.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
   BaseApp.vcxproj -> C:\Users\ebay\source\repos\BaseApp\Debug\BaseApp.exe

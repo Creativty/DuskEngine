@@ -8,6 +8,5 @@
 std::string getFileContents(std::string file_location) {
 	std::ifstream input(file_location);
 	std::string str((std::istreambuf_iterator<char>(input)), std::istreambuf_iterator<char>());
-	std::cout << str << std::endl;
 	return str;
 }

@@ -1,22 +1,30 @@
 #pragma once
 #include "GLFW/glfw3.h"
 #include "Vectors.h"
+#include "ShaderProgram.h"
+
+struct Vertex {
+	float x, y, z;
+};
+
 class Drawable {
 public:
 	Drawable();
-	void draw();
+	void draw(ShaderProgram &shader);
+	void GenerateVertices();
+	Vertex vertices[4] = {
+		{ 0.5f, 0.5f, 0.0f },
+		{  0.5f, -0.5f, 0.0f},
+		{ - 0.5f, -0.5f, 0.0f},
+		{  -0.5f,  0.5f, 0.0f }
+	};
 
-	const struct {
-		float x, y;
-		float r, g, b;
-	} vertices[3] = {
-		{ -0.6f, -0.4f, 1.f, 0.f, 0.f },
-		{  0.6f, -0.4f, 0.f, 1.f, 0.f },
-		{   0.f,  0.6f, 0.f, 0.f, 1.f }
+	unsigned int indices[6] = {
+		0, 1, 3, 1, 2, 3
 	};
 private:
 	Vec2D position;
 	Vec2D size;
 	Vec3D color;
-	GLuint vertex_buffer;
+	GLuint vboID, vaoID, eboID;
 };
